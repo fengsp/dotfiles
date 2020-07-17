@@ -1,0 +1,11 @@
+filetype on
+au BufNewFile,BufRead *.rs set filetype=rust
+set showmatch  
+syntax on
+set autoindent
+set expandtab
+set title
+set shiftwidth=4  " operation >> indents 4 columns; << unindents 4 columns
+set tabstop=4     " a hard TAB displays as 4 columns
+set softtabstop=4 " insert/delete 4 spaces when hitting a TAB/BACKSPACE
+set shiftround    " round indent to multiple of 'shiftwidth'
